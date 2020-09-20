@@ -1,0 +1,160 @@
+/* deleted the reset css code. Put it in a seperate file, linked in HTML portion*/
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo { /*just wanted to make it look nicer by emphesisizing the SEO portion within the name of the company*/
+    color: #58e799;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; /* deleted a font - wasnt being shown on front end*/
+    font-size: 20px;
+    display: inline;
+    margin-left: 25px;
+}
+/* deleted header div ul - had no practical function to this area*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+/* deleted "text-decoration" - was set to none. had to purpose*/
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 255, 213, 0.5), rgba(0,0,255,0.5)),
+    url("C:\Users\mhiat\Desktop\NU-CHI-FSF-FT-09-2020-U-C\01-Class-Activities\01-HTML-Git-CSS\02-Homework\Develop\assets\images\digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; /*deleted a font - wasn't showing up on front end*/
+    background-color: #2589bd;
+    text-align: center;
+    background-position: center;
+
+}
+
+.benefit{ /*got rid of the reduendent specs for the photos and everything else and renamed the class just to "benefit"*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.h3 { /*got rid of 2 of the h3 tags to make it easier to read, and not extra work, when 3 of the classes were asking for the same specs*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img { /*got rid of the reduendent specs for the photos and everything else and renamed the class just to "benefit"*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: larger; /*added font size*/
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: larger; /*added font size*/
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: larger; /*added font size*/
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.h2 { /* deleted redundent class names with the same attributes, and combined them into one */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
