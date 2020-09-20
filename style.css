@@ -50,7 +50,7 @@ p {
     margin-bottom: 25px;
     background-image:
     linear-gradient(to bottom, rgba(0, 255, 213, 0.5), rgba(0,0,255,0.5)),
-    url("C:\Users\mhiat\Desktop\NU-CHI-FSF-FT-09-2020-U-C\01-Class-Activities\01-HTML-Git-CSS\02-Homework\Develop\assets\images\digital-marketing-meeting.jpg");
+    url("C:\Users\mhiat\Desktop\NU-CHI-FSF-FT-09-2020-U-C\01-Class-Activities\01-HTML-Git-CSS\02-Homework\Develop\assets\images\digital-marketing-meeting.jpg"); /*added a nicer background color to make it flow more.I tried everything to get this picture to show, but it just won't*/
     background-size: cover;
     background-position: center;
 }
